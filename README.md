@@ -9,5 +9,5 @@ Dalam DOM ada yang di sebut DOM tree, DOM tree adalah representasi struktur dari
 	- getElementByid()
 	- getElementsByTagName()
 	- querySelector()
-	-querySelectorAll()
+	- querySelectorAll()
 * DOM Manipulation
