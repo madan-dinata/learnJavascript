@@ -12,7 +12,7 @@
 	for( let i = 0;i <= section.length; i++) {
 		section[i].style.backgroundColor = 'blue'
 		section[1].style.color = 'white'
-		//console.log(section) //yang di kembalikan ada HTMLCollection. tidak bisa di manipulasi secara langsung karna banyak. agar bisa yaitu dengan menambahkan index setelah tagname nya agar lebih spesifik
+		//console.log(section) //yang di kembalikan adalah HTMLCollection. tidak bisa di manipulasi secara langsung karna banyak. agar bisa yaitu dengan menambahkan index setelah tagname nya agar lebih spesifik. cara nya bisa langung menulis nomor index nya atau jika ingin semua index bisa dengan menggunakan looping
 	}
 
 	// document.getElementsByClassName() -> HTMLCollection
@@ -33,3 +33,17 @@
 		li[i].style.backgroundColor = 'red'
 	}
 */
+// Latihan
+/*1. rubah background warna body menjadi oren salmon
+  2. rubah background warna section a berwarna aqua
+  3. rubah ukuran font pada section b menjadi 25px
+  4. beri margin kiri kanan 20px atas bawah 5px pada paragraf 3
+  5. rubah ukuran font item 1 dan item 3 menjadi tebal dan beri warna font hijau
+*/
+document.querySelector('body').style.backgroundColor = 'salmon'
+document.getElementsByTagName('section')[0].style.backgroundColor = 'aqua'
+document.getElementById('b').style.fontSize = '25px'
+document.getElementsByClassName('p3')[0].style.margin = '20px 5px'
+let li = document.querySelectorAll('section#b ul li')
+	li[0].style.fontStyle = 'italic'; li[0].style.color = 'green'
+	li[2].style.fontStyle = 'italic'; li[2].style.color = 'green'
