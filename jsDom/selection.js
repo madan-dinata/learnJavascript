@@ -34,12 +34,14 @@
 	}
 */
 // Latihan
-/*1. rubah background warna body menjadi oren salmon
+/*
+  1. rubah background warna body menjadi oren salmon
   2. rubah background warna section a berwarna aqua
   3. rubah ukuran font pada section b menjadi 25px
   4. beri margin kiri kanan 20px atas bawah 5px pada paragraf 3
   5. rubah ukuran font item 1 dan item 3 menjadi tebal dan beri warna font hijau
 */
+
 document.querySelector('body').style.backgroundColor = 'salmon'
 document.getElementsByTagName('section')[0].style.backgroundColor = 'aqua'
 document.getElementById('b').style.fontSize = '25px'
