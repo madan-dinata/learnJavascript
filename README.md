@@ -5,26 +5,31 @@ a repository to store my javascript learning files
 DOM (Document Object Model) adalah antar muka pemrograman berbasis objek yang mempresentasikan dokumen web. DOM di gunakan saat kita ingin menyeleksi dan memanipulasi halaman web kita. DOM akan membuat seluruh komponen dari halaman web kita dapat di akses dan di manipulasi dengan mempresentasikan halaman web kita dalam bentuk objek, saat itu la kita dapat menyeleksi dan memanipulasi halaman web.
 
 Dalam DOM ada yang di sebut DOM tree, DOM tree adalah representasi struktur dari komponen halaman web.
-Adapun beberapa hal yang perlu di ketahui di dalam DOM
-
+Adapun beberapa hal yang perlu di ketahui di dalam DOM	
+	
 **DOM Selection**
 
-	-> cara menyeleksi komponen atau tag-tag dalam halaman web.
+-> cara menyeleksi komponen atau tag-tag dalam halaman web.
+- getElementById() 		: menyeleksi berdasarkan id 					: mengembalikan satu element
+- getElementsByTagName() 	: menyeleksi berdasarkan tag 					: mengembalikan banyak element / HTMLCollection
+- getElementsByClassName() 	: menyeleksi berdasarkan class 				: mengembalikan banyak element / HTMLCollection
+- querySelector()		: menyeleksi berdasarkan selector seperti css : mengembalikan satu element
+- querySelectorAll()		: menyeleksi berdasarkan selector seperti css : mengembalikan banyak element / NODELIST.
+
 	
-	- getElementById() 			-> menyeleksi berdasarkan id 					-> mengembalikan satu element
-	- getElementsByTagName() 	-> menyeleksi berdasarkan tag 					-> mengembalikan banyak element / HTMLCollection
-	- getElementsByClassName() 	-> menyeleksi berdasarkan class 				-> mengembalikan banyak element / HTMLCollection
-	- querySelector()			-> menyeleksi berdasarkan selector seperti css -> mengembalikan satu element
-	- querySelectorAll()		-> menyeleksi berdasarkan selector seperti css -> mengembalikan banyak element / NODELIST.
+
+	
+	
 
 **DOM Manipulation**
-	-> cara memanipulasi komponen atau tag yang sudah di seleksi.
 
-	Saya kategorikan menjadi dua. yaitu manipulasi element dan manipulasi NODE. manipulasi element menangkap element untuk mengubah isi nya atau mengubah warna nya maupun teks nya. Manipulasi Node untuk menambah element maupun menghilangkan sebuah element.
+-> cara memanipulasi komponen atau tag yang sudah di seleksi.
 
-	* Manipulasi Element
-		- element.innerHTML 		-> merubah isi dari sebuah tag 
-		- element.style.<property> 	-> merubah style/css dari sebuah tag
-		- element.setAttribute()	-> memanipulasi attiribut pada tag html yang di seleksi
-		- element.classList 		-> memanipulasi class pada tag html
-		- dsb..
+Saya kategorikan menjadi dua. yaitu manipulasi element dan manipulasi NODE. manipulasi element menangkap element untuk mengubah isi nya atau mengubah warna nya maupun teks nya. Manipulasi Node untuk menambah element maupun menghilangkan sebuah element.
+
+* Manipulasi Element
+	- element.innerHTML 		: merubah isi dari sebuah tag 
+	- element.style.property 	: merubah style/css dari sebuah tag
+	- element.setAttribute()	: memanipulasi attiribut pada tag html yang di seleksi
+	- element.classList 		: memanipulasi class pada tag html
+	- dsb..
