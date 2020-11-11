@@ -12,7 +12,7 @@ Adapun beberapa hal yang perlu di ketahui di dalam DOM
 	- getElementsByTagName() 	-> menyeleksi berdasarkan tag 					-> mengembalikan banyak element / HTMLCollection
 	- getElementsByClassName() 	-> menyeleksi berdasarkan class 				-> mengembalikan banyak element / HTMLCollection
 	- querySelector()			-> menyeleksi berdasarkan selector seperti css -> mengembalikan satu element
-	- querySelectorAll()		-> menyeleksi berdasarkan selector seperti css -> mengembalikan banyak element / NODELIST
+	- querySelectorAll()		-> menyeleksi berdasarkan selector seperti css -> mengembalikan banyak element / NODELIST.
 *DOM Manipulation*
 	-> cara memanipulasi komponen atau tag yang sudah di seleksi
 	Saya kategorikan menjadi dua. yaitu manipulasi element dan manipulasi NODE. manipulasi element menangkap element untuk mengubah isi nya atau mengubah warna nya maupun teks nya. Manipulasi Node untuk menambah element maupun menghilangkan sebuah element.
