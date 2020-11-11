@@ -8,9 +8,16 @@ Dalam DOM ada yang di sebut DOM tree, DOM tree adalah representasi struktur dari
 Adapun beberapa hal yang perlu di ketahui di dalam DOM
 * DOM Selection -> cara menyeleksi komponen atau tag-tag dalam halaman web.
 	- getElementById() 			-> menyeleksi berdasarkan id 					-> mengembalikan satu element
-	- getElementsByTagName() 	-> menyeleksi berdasarkan tag 					-> mengembalikan banyak element
-	- getElementsByClassName() 	-> menyeleksi berdasarkan class 				-> mengembalikan banyak element
+	- getElementsByTagName() 	-> menyeleksi berdasarkan tag 					-> mengembalikan banyak element / HTMLCollection
+	- getElementsByClassName() 	-> menyeleksi berdasarkan class 				-> mengembalikan banyak element / HTMLCollection
 	- querySelector()			-> menyeleksi berdasarkan selector seperti css -> mengembalikan satu element
-	- querySelectorAll()		-> menyeleksi berdasarkan selector seperti css -> mengembalikan banyak element
+	- querySelectorAll()		-> menyeleksi berdasarkan selector seperti css -> mengembalikan banyak element / NODELIST
 * DOM Manipulation
-	- 
+	Saya kategorikan menjadi dua. yaitu manipulasi element dan manipulasi NODE. manipulasi element menangkap element untuk mengubah isi nya atau mengubah warna nya maupun teks nya. Manipulasi Node untuk menambah element maupun menghilangkan sebuah element.
+
+	** Manipulasi Element
+		- element.innerHTML 		-> merubah isi dari sebuah tag 
+		- element.style.<property> 	-> merubah style/css dari sebuah tag
+		- element.setAttribute()	-> memanipulasi attiribut pada tag html yang di seleksi
+		- element.classList 		-> memanipulasi class pada tag html
+		- dsb..
