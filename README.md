@@ -7,7 +7,7 @@ DOM (Document Object Model) adalah antar muka pemrograman berbasis objek yang me
 Dalam DOM ada yang di sebut DOM tree, DOM tree adalah representasi struktur dari komponen halaman web.
 Adapun beberapa hal yang perlu di ketahui di dalam DOM	
 	
-**DOM Selection**
+###DOM Selection
 
 -> cara menyeleksi komponen atau tag-tag dalam halaman web.
 - getElementById() 		: menyeleksi berdasarkan id 					: mengembalikan satu element
@@ -21,7 +21,7 @@ Adapun beberapa hal yang perlu di ketahui di dalam DOM
 	
 	
 
-**DOM Manipulation**
+###DOM Manipulation
 
 -> cara memanipulasi komponen atau tag yang sudah di seleksi.
 
