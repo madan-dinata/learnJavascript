@@ -42,3 +42,7 @@ Saya kategorikan menjadi dua. yaitu manipulasi element dan manipulasi NODE. mani
 	- childNode.remove()		: menghapus element child
 	- childNode.replaceWith()	: menimpa element child dengan element baru
 	- dsb..
+
+#### DOM Events
+
+-> mempresentasikan sebuah kejadian yang terjadi di dalam DOM
