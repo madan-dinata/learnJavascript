@@ -87,30 +87,55 @@ let madan = new Person("Madan", 10)
 */
 
 // 4. Object.create 
-const methodPerson = {
-    eat: function(portion) {
+
+function Person(name, energy) {
+    this.name = name;
+    this.energy = energy;
+    }
+
+    Person.prototype.eat = function(portion) {
         this.energy += portion;
         console.log(`Hai ${this.name}, Enjoy your meal`)
-    },
+    }
     
-    sleep: function(hours) {
+    Person.prototype.sleep = function(hours) {
         this.energy += hours * 2;
         console.log(`Hai ${this.name}, Good Night`)
-    },
+    }
 
-    play: function(hours) {
+    Person.prototype.play = function(hours) {
         this.energy -= hours;
         console.log(`Hai ${this.name}, Have a nice play`)
     }
+
+let madan = new Person("Madan", 10);
+let bunga = new Person("Bunga", 8);
+
+    // Versi Class
+
+/*
+class Person {
+    constructor ( name, energy ) {
+        this.name = name;
+        this.energy = energy;
+    }
+
+    eat(portion) {
+        this.energy += portion;
+        console.log(`Hai ${this.name}, Enjoy your meal`)
+    }
+
+    play(hours) {
+        this.energy -= hours;
+        console.log(`Hai ${this.name}, Have a nice play`)
+    }
+
+    sleep(hours) {
+        this.energy += hours * 2;
+        console.log(`Hai ${this.name}, Good Night`)
+    }
 }
 
-function Person(name, energy) {
-    let person = Object.create(methodPerson);
-    person.name = name;
-    person.energy = energy;
-
-    return person;
-}
-
-let madan = Person("Madan", 10);
-let bunga = Person("Bunga", 8);
+let madan = new Person("Madan", 10);
+let bunga = new Person("Bunga", 8);
+*/
