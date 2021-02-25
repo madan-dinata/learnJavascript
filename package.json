@@ -1,0 +1,22 @@
+{
+  "name": "learnjavascript",
+  "version": "1.0.0",
+  "description": "a repository to store my javascript learning files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madan-dinata/learnJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madan-dinata/learnJavascript/issues"
+  },
+  "homepage": "https://github.com/madan-dinata/learnJavascript#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
